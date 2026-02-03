@@ -21,15 +21,5 @@
     "outbounds": 
     [
         {"protocol": "freedom","tag": "direct","settings": {}}
-    ],
-    
-    "routing": 
-    {
-        "rules": 
-        [
-            {"type": "field","inboundTag": ["onetag"],"outboundTag": "twotag"},
-            {"type": "field","outboundTag": "sockstor","domain": ["geosite:tor"]},
-            {"type": "field","outboundTag": "blocked","domain": ["geosite:category-ads-all"]}
-        ]
-    }
+    ]
 }
