@@ -10,6 +10,4 @@ RUN apk update && \
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
 
-EXPOSE 4324
-
 CMD /start.sh
